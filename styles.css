@@ -1,0 +1,40 @@
+h1{
+    color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav{
+    list-style: none;
+    padding-left: 0;
+
+    border-style: groove;
+
+    width: 50vw;
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li{
+    display: inline-block;
+    border-style: initial;
+    padding: 3px;
+}
+
+.nav>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav>li:hover{
+
+    background-color: darkgray;
+}
+
+img{
+    display: block;
+    margin: auto;
+    border-style: inherit;
+    width: 80%;
+    height: auto;
+}
